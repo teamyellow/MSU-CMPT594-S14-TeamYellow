@@ -1,0 +1,14 @@
+-# This file is app/views/pages/home.html.haml
+%h2 Sign in
+
+-#%form{:tag => "Create Logon"}
+-#  %div{:align => "center"}
+-#    Username *:
+-#    %input{:name => "username", :type => "username"}/
+-#    %br/
+-#    %br/
+-#    Password *:
+-#   %input{:name => "pwd", :type => "password"}/
+-#    %br/
+-#    %br/
+-#    %input{:type => "submit", :value => "Submit"}/
