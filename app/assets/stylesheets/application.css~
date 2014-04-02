@@ -32,9 +32,4 @@ h1.title {
   font-style: normal;
 }
 
-footer{
-   color:DarkSlateGrey;
-   font-family: Tahoma, Verdana, sans-serif;
-   font-size: 10pt;
-   font-style: bold;
-}
+
