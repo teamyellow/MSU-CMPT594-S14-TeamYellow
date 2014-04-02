@@ -23,10 +23,16 @@ The Page is under construction!!
  	<br/>
 	<br/>
 		<input type="submit" value="Submit" />
-		</div>
+        <br/>
+        <br/>
+        Sign Up for New User
+        <br/>
+        <br/>
+        Forgot Password?
+    </div>
 	</form>
   </div>
-<div>
+   <div>
      <br/>
      <br/>
      <br/>
