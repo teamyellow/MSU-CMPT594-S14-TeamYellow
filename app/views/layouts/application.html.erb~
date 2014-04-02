@@ -19,7 +19,7 @@ The Page is under construction!!
 	Username *:  <input type="username" name="username" />
 	<br/>
         <br/>
-        Password *:  <input type="password" name="pwd" />
+        Password *:    <input type="password" name="pwd" />
  	<br/>
 	<br/>
 		<input type="submit" value="Submit" />
@@ -27,7 +27,30 @@ The Page is under construction!!
 	</form>
   </div>
 <div>
-
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+<br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+    <br/>
+   <br/>
+   <br/>
+</div>
+<div align="center" class="footer">
+     Created by Montclair State University students (Anagha Tasgaonkar, Krupa Patel, Olivia Larson, Vinothini Ramachandran, Enis Bilgin)
 </div>
 </body>
 </html>
