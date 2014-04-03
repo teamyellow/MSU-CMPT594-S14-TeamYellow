@@ -1,4 +1,7 @@
 Physicalfocus::Application.routes.draw do
+  resources :cookbooks
+
+
   get "home/index"
 
   get "cookbook/index"
