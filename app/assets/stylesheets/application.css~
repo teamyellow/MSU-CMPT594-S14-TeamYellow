@@ -12,12 +12,13 @@
  *= require_tree .
  */
 html, body {
+
+background-image:none;
   margin: 0;
   padding: 0;
-  color: DarkSlateGrey;
+  color: black;
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 10pt;
-  background-image:url('Physical_Focus_bk.jpg');
   background-repeat:no-repeat;
   background-size:cover;
   }
@@ -31,5 +32,28 @@ h1.title {
   font-size: 2em;
   font-style: normal;
 }
-
-
+footer{
+    color: DarkSlateGrey;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 10pt;
+    font-style: bold;
+    position:absolute;
+    bottom:0;
+}
+#notice {
+  background: rosybrown;
+  margin: 1em 0;
+  padding: 4px;
+}
+#warning {
+  
+  margin: 1em 0;
+  padding: 4px;
+  color:#FF1919;
+;
+}
+label {
+    display:inline-block;
+    width:90px;
+    text-align: left;
+ }

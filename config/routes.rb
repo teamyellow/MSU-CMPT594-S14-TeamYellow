@@ -6,7 +6,10 @@ Physicalfocus::Application.routes.draw do
 
   get "cookbook/index"
 
-root :to => 'home#index'
+#root :to => 'home#index'
+resources :users
+root :to => 'users#index'
+match "users/authenticate" => "users#authenticate" 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

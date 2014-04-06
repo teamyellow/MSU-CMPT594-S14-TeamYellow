@@ -1,0 +1,46 @@
+%h2 Create a Physical Focus Account
+= form_tag users_path do
+ %div{:align => "center"}
+  = label :user, :first_name, 'First Name:*'
+  = text_field :user, 'first_name'
+ 
+  %br/
+  %br/
+  = label :user, :last_name, 'Last Name:*'
+  = text_field :user, 'last_name'
+  %br/
+  %br/
+  = label :user, :username, 'Username:*'
+  = text_field :user, 'username'
+  %br/
+  %br/
+  = label :user, :email, 'Email:*'
+  = text_field :user, 'email'
+  %br/
+  %br/
+  = label :user, :password, 'Password:*'
+  = text_field :user, 'password'
+  
+  %br/
+  (Minimum 6 Characters in length)
+  %br/
+  %br/
+  = submit_tag 'Sign Up'
+ %div
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/
+  %br/ 
+
