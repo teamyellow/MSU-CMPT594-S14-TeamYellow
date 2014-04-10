@@ -80,4 +80,8 @@ class CookbooksController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  def comment
+  	@comment = "comment"
+  end
 end
