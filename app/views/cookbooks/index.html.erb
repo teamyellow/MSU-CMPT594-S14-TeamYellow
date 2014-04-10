@@ -1,25 +1,32 @@
-<h1>Listing cookbooks</h1>
+<h1 align="center">Listing cookbooks</h1>
 
-<table>
-  <tr>
+
+  
+<% @cookbooks.each do |cookbook| %>
+
+<table align="center" border="2">
+<tr>
     <th>Recipe</th>
     <th>Recipe title</th>
-    <th></th>
-    <th></th>
-    <th></th>
+  
   </tr>
 
-<% @cookbooks.each do |cookbook| %>
   <tr>
     <td><%= cookbook.recipe_id %></td>
     <td><%= cookbook.recipe_title %></td>
     <td><%= link_to 'Show', cookbook %></td>
     <td><%= link_to 'Edit', edit_cookbook_path(cookbook) %></td>
     <td><%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Comments', cookbook %></td>
   </tr>
+  <p>
+  
+  
+  </p>
 <% end %>
 </table>
 
 <br />
-
+<div align="center">
 <%= link_to 'New Cookbook', new_cookbook_path %>
+</div>

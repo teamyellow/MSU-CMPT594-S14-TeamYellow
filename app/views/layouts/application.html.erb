@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Physicalfocus</title>
+ 
   <%= stylesheet_link_tag "application"%>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 
 </head>
 <body>
+<div class="header">
+ <title>Physicalfocus</title>
+<div/>
+
 <h1 class="title">Welcome To Physical Focus!!</h1>
+<div class="logo">
+	<img src="http://s8.postimg.org/sylrfsrhx/logo.png" alt="logo" height="20%" width="20%" id="logo"/>
+</div>
+	
  <% if flash[:notice] %>
     <div class="message" id="notice">
       <%= flash[:notice] %>
@@ -23,8 +31,12 @@
 </div>
 
 
-<div align="center" class="footer">
+
+</body>
+<div>
+	<input type="submit" value="LogOut" id="logout">
+</div>
+<div align="center" id="footer">
      Created by Montclair State University students (Anagha Tasgaonkar, Krupa Patel, Olivia Larson, Vinothini Ramachandran, Enis Bilgin)
 </div>
-</body>
 </html>
