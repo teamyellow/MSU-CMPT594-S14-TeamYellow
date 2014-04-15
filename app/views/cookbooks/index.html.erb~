@@ -31,5 +31,5 @@
 <%= link_to 'New Cookbook', new_cookbook_path %>
 </div>
 <div align="center">
-<%=link_to 'Edit Profile', edit_user_path(session[:User_id]) %>
+<%=link_to 'Edit Profile', edit_users_path %>
 </div>
