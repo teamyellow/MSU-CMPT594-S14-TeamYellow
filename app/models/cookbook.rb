@@ -1,3 +1,3 @@
 class Cookbook < ActiveRecord::Base
-  attr_accessible :recipe_id, :recipe_title, :recipe_ingredients
+  attr_accessible :recipe_id, :recipe_title
 end

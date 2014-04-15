@@ -9,11 +9,11 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+
  */
 html, body {
 
-background-image:none;
+background-image:url('http://reformstudiossc.com/wp-content/uploads/2012/09/healthy-living.jpg');
   margin: 0;
   padding: 0;
   color: black;
