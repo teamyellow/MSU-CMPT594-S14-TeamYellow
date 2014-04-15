@@ -2,6 +2,10 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
+
+#Added not to bootstrpa on precompile suggested by Doc on blackboard
+config.assets.initialize_on_precompile = false
+
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
@@ -33,8 +37,6 @@ module Physicalfocus
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-#Added not to bootstrpa on precompile suggested by Doc on blackboard
-config.assets.initialize_on_precompile = false
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
