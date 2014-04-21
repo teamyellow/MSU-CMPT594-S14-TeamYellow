@@ -1,8 +1,12 @@
 class CreateCookbooks < ActiveRecord::Migration
   def change
     create_table "cookbooks" do |t|
-      t.integer :recipe_id
-      t.string :recipe_title
+      t.string :title
+      t.integer :servings
+      t.integer :preptime
+      t.integer :cooktime
+      t.string :ingredients
+      t.string :directions
 
       t.timestamps
     end

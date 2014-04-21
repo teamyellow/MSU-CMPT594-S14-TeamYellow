@@ -9,13 +9,20 @@
 <table align="center" border="2">
 <tr>
     <th>Recipe</th>
-    <th>Recipe title</th>
-  
+    <th>Yield</th>
+    <th>Prep Time</th>
+    <th>Cook Time</th>
+    <th>Ingredients</th>
+    <th>Directions</th>
   </tr>
 
   <tr>
-    <td><%= cookbook.recipe_id %></td>
-    <td><%= cookbook.recipe_title %></td>
+    <td><%= cookbook.title %></td>
+    <td><%= cookbook.servings %></td>
+    <td><%= cookbook.preptime %></td>
+    <td><%= cookbook.cooktime %></td>
+    <td><%= cookbook.ingredients %></td>
+    <td><%= cookbook.directions %></td>
     <td><%= link_to 'Show', cookbook %></td>
     <td><%= link_to 'Edit', edit_cookbook_path(cookbook) %></td>
     <td><%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -14,10 +14,14 @@
 ActiveRecord::Schema.define(:version => 20140403194025) do
 
   create_table "cookbooks", :force => true do |t|
-    t.integer  "recipe_id"
-    t.string   "recipe_title"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.string   "title"
+    t.integer  "servings"
+    t.integer  "preptime"
+    t.integer  "cooktime"
+    t.string   "ingredients"
+    t.string   "directions"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "users", :force => true do |t|

@@ -1,5 +1,7 @@
 <h1 align="center">Listing cookbooks</h1>
-
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'cookbooks' %>
+<% end %> 
 
   
 <% @cookbooks.each do |cookbook| %>
