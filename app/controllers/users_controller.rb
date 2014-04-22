@@ -12,7 +12,6 @@ def create
  #render:new
 redirect_to new_user_path
  else
- do_current_user
  flash[:notice] = "#{@user.first_name} was successfully created."
  redirect_to users_path
  end
