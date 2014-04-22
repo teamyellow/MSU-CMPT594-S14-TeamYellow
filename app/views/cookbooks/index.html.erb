@@ -50,3 +50,7 @@
 <div align="center">
 <%=link_to 'Edit Profile', edit_user_path(session[:User_id]) %>
 </div>
+<div class="logout">
+<%=link_to 'Logout', :controller => :users, :action => :logout %>
+</div>
+

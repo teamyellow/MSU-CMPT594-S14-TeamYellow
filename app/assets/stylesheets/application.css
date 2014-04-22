@@ -46,6 +46,7 @@ h1.title {
   background: rosybrown;
   margin: 1em 0;
   padding: 4px;
+  font-size: 150%;
 }
 #warning {
   margin: 1em 0;
@@ -63,9 +64,54 @@ h1.title {
   width: 10em;
   color:black;
   background-color:green;
+
 }
 label {
     display:inline-block;
     width:90px;
     text-align: left;
  }
+
+.logout {
+  position: absolute;
+  left:46%;
+  top:70%;
+  -moz-box-shadow: 3px 5px 0px 0px #8a2a21;
+  -webkit-box-shadow: 3px 5px 0px 0px #8a2a21;
+  box-shadow: 3px 5px 0px 0px #8a2a21;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+  background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+  background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+  background-color:#c62d1f;
+  -moz-border-radius:21px;
+  -webkit-border-radius:21px;
+  border-radius:21px;
+  border:1px solid #140d0c;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:19px;
+  padding:9px 33px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #810e05;
+}
+.logout:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+  background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+  background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+  background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+  background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+  background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+  background-color:#f24437;
+}
+.logout:active {
+  position:absolute;
+  top:70%;
+  left:46%;
+}

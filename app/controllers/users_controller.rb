@@ -36,6 +36,12 @@ def edit
     end
   end
 
+    
+  def logout
+    redirect_to '/'
+    flash[:notice] = 'You logged out, please log in to continue'
+  end
+
 def authenticate
  @user_present = User.find_by_username(params[:username])
   if  @user_present 
