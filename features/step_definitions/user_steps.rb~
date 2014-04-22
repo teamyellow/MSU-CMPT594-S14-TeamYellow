@@ -18,8 +18,5 @@ Given /^a logged in user$/ do
 end
 
 When /^I edit the data$/ do 
-   fill_in "First name", :with => 'krupa'
-   fill_in "Last name", :with => 'Patel'
-   fill_in "Username", :with => 'krupapatel'
    fill_in "Email", :with => 'krupa@gmail.com'
 end
