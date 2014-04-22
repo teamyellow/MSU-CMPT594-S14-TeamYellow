@@ -10,7 +10,7 @@ Physicalfocus::Application.routes.draw do
 resources :users
 root :to => 'users#index'
 match "users/authenticate" => "users#authenticate" 
-
+get "users/index/edit"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

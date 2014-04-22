@@ -19,8 +19,7 @@ module NavigationHelpers
       '/'
     when /^the View Cookbooks page$/
       '/cookbooks'
-    when /^the Edit Users page$/
-      '/users/1/edit'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

@@ -3,7 +3,7 @@ Physicalfocus::Application.routes.draw do
 
 
   get "home/index"
-
+  get "cookbooks_controller.rb/comment"
   get "cookbook/index"
 
 #root :to => 'home#index'
