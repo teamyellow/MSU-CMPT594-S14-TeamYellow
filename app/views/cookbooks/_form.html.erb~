@@ -10,10 +10,6 @@
       </ul>
     </div>
   <% end %>
-  <div class=field">
-    <%= f.label :author %>
-    <%= @cookbook.author %>
-  </div>
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
@@ -31,7 +27,7 @@
     <%= f.number_field :cooktime %>
   </div>
   <div class="field">
-    <%= f.label :ingredients %><br />
+    <%= f.label :ingredients %> (List ingredients separated by a comma)<br />
     <%= f.text_field :ingredients %>
   </div>
   <div class="field">
