@@ -2,4 +2,8 @@ module CookbooksHelper
   def split_ingredients(cookbook)
     ingredients = cookbook.ingredients.split(",")
   end
+
+  def set_username
+    @cookbook.author = User.find(@user).username
+  end
 end

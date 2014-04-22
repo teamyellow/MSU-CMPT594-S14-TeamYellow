@@ -1,9 +1,9 @@
 cookbook_list = [
-  ["Dim Sum",2,15,10,"dough, chicken, spices", "Google this recipe."],
-  ["Spaghetti Carbonara",4,10,30,"pasta, 2 eggs beaten, bacon, parsley, garlic", "Cook bacon in oven. Cook pasta on stove. Mix garlic and olive oil until hot, add eggs to pasta and stir vigorously. Add garlic and oil mixture. Crumble bacon and add, decorate with parsley."],
-  ["Olivia's Rice Bowl",2,5,15,"boxed rice, chicken apple sausage, 1 can black beans, 1/2 cup frozen peas", "Begin rice as stated on box. Slice the sausage into 1/4 inch pieces, pan sear until golden brown. Add to rice mixture. Drain beans and add with peas to rice mixture. Finish rice box directions."],
+  ["Dim Sum","Olivia Larson",2,15,10,"dough, chicken, spices", "Google this recipe."],
+  ["Spaghetti Carbonara","Enis Bilgin",4,10,30,"pasta, 2 eggs beaten, bacon, parsley, garlic", "Cook bacon in oven. Cook pasta on stove. Mix garlic and olive oil until hot, add eggs to pasta and stir vigorously. Add garlic and oil mixture. Crumble bacon and add, decorate with parsley."],
+  ["Olivia's Rice Bowl","Olivia Larson",2,5,15,"boxed rice, chicken apple sausage, 1 can black beans, 1/2 cup frozen peas", "Begin rice as stated on box. Slice the sausage into 1/4 inch pieces, pan sear until golden brown. Add to rice mixture. Drain beans and add with peas to rice mixture. Finish rice box directions."],
 ]
 
-cookbook_list.each do |t, s, p, c, i, d|
-  Cookbook.create(title: t, servings: s, preptime: p, cooktime: c, ingredients: i, directions: d)
+cookbook_list.each do |t, a, s, p, c, i, d|
+  Cookbook.create(title: t, author: a, servings: s, preptime: p, cooktime: c, ingredients: i, directions: d)
 end

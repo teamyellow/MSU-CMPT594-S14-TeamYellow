@@ -9,13 +9,26 @@
 <table align="center" border="2">
 <tr>
     <th>Recipe</th>
-    <th>Recipe title</th>
-  
+    <th>Author</th>
+    <th>Yield</th>
+    <th>Prep Time</th>
+    <th>Cook Time</th>
+    <th>Ingredients</th>
+    <th>Directions</th>
   </tr>
 
   <tr>
-    <td><%= cookbook.recipe_id %></td>
-    <td><%= cookbook.recipe_title %></td>
+    <td><%= cookbook.title %></td>
+    <td><%= cookbook.author %></td>
+    <td><%= cookbook.servings %> servings</td> 
+    <td><%= cookbook.preptime %> minutes</td>
+    <td><%= cookbook.cooktime %> minutes </td>
+    <td><ul><% split_ingredients(cookbook).each do |ingredient| %>
+	   <li><%= ingredient %></li>
+	    <% end %>
+	</ul>
+    </td>
+    <td><%= cookbook.directions %></td>
     <td><%= link_to 'Show', cookbook %></td>
     <td><%= link_to 'Edit', edit_cookbook_path(cookbook) %></td>
     <td><%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>

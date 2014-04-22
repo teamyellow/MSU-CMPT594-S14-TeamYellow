@@ -2,6 +2,7 @@ class CreateCookbooks < ActiveRecord::Migration
   def change
     create_table "cookbooks" do |t|
       t.string :title
+      t.string :author
       t.integer :servings
       t.integer :preptime
       t.integer :cooktime

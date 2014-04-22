@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20140403194025) do
 
   create_table "cookbooks", :force => true do |t|
     t.string   "title"
+    t.string   "author"
     t.integer  "servings"
     t.integer  "preptime"
     t.integer  "cooktime"

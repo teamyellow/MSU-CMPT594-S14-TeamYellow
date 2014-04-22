@@ -2,12 +2,37 @@
 
 <p>
   <b>Recipe:</b>
-  <%= @cookbook.recipe_id %>
+  <%= @cookbook.title %>
 </p>
 
 <p>
-  <b>Recipe title:</b>
-  <%= @cookbook.recipe_title %>
+  <b>Author:</b>
+  <%= @cookbook.author %> 
+</p>
+
+<p>
+  <b>Yield:</b>
+  <%= @cookbook.servings %> servings
+</p>
+
+<p>
+  <b>Prep Time:</b>
+  <%= @cookbook.preptime %> minutes
+</p>
+
+<p>
+  <b>Cook Time:</b>
+  <%= @cookbook.cooktime %> minutes
+</p>
+
+<p>
+  <b>Ingredients:</b>
+  <%= @cookbook.ingredients %>
+</p>
+
+<p>
+  <b>Directions:</b>
+  <%= @cookbook.directions %>
 </p>
 
 

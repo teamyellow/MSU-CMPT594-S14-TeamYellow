@@ -12,6 +12,7 @@ def create
  #render:new
 redirect_to new_user_path
  else
+ do_current_user
  flash[:notice] = "#{@user.first_name} was successfully created."
  redirect_to users_path
  end
@@ -40,7 +41,7 @@ def authenticate
  @user_present = User.find_by_username(params[:username])
   if  @user_present 
     session[:User_id] =  @user_present.id
-    flash[:notice] = "#{@user_present.first_name}, welcome to cookbook!!"
+    flash[:notice] = "#{@user_present.first_name}, welcome to the cookbook!!"
     redirect_to cookbooks_path
   else
   flash[:warning] = "Error in Log in : Please enter correct email and password"

@@ -1,4 +1,5 @@
 <h1>New cookbook</h1>
 
 <%= render 'form' %>
+<% set_username %>
 <%= link_to 'Back', cookbooks_path %>

@@ -10,7 +10,10 @@
       </ul>
     </div>
   <% end %>
-
+  <div class=field">
+    <%= f.label :author %>
+    <%= @cookbook.author %>
+  </div>
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
@@ -19,6 +22,23 @@
     <%= f.label :servings %><br />
     <%= f.number_field :servings %>
   </div>
+  <div class="field">
+    <%= f.label :preptime %><br />
+    <%= f.number_field :preptime %>
+  </div>
+  <div class="field">
+    <%= f.label :cooktime %><br />
+    <%= f.number_field :cooktime %>
+  </div>
+  <div class="field">
+    <%= f.label :ingredients %><br />
+    <%= f.text_field :ingredients %>
+  </div>
+  <div class="field">
+    <%= f.label :directions %><br />
+    <%= f.text_field :directions %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

@@ -8,6 +8,7 @@
 
 <table align="center" border="2">
 <tr>
+    <th>Author</th>
     <th>Recipe</th>
     <th>Yield</th>
     <th>Prep Time</th>
@@ -17,11 +18,16 @@
   </tr>
 
   <tr>
+    <td><%= cookbook.author %></td>
     <td><%= cookbook.title %></td>
-    <td><%= cookbook.servings %></td>
-    <td><%= cookbook.preptime %></td>
-    <td><%= cookbook.cooktime %></td>
-    <td><%= cookbook.ingredients %></td>
+    <td><%= cookbook.servings %> servings</td> 
+    <td><%= cookbook.preptime %> minutes</td>
+    <td><%= cookbook.cooktime %> minutes </td>
+    <td><ul><% split_ingredients(cookbook).each do |ingredient| %>
+	   <li><%= ingredient %></li>
+	    <% end %>
+	</ul>
+    </td>
     <td><%= cookbook.directions %></td>
     <td><%= link_to 'Show', cookbook %></td>
     <td><%= link_to 'Edit', edit_cookbook_path(cookbook) %></td>

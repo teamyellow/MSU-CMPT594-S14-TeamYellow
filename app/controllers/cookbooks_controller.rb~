@@ -41,7 +41,7 @@ class CookbooksController < ApplicationController
   # POST /cookbooks.json
   def create
     @cookbook = Cookbook.new(params[:cookbook])
-    @cookbook.author = User.find(session[:User_id]).username
+
     respond_to do |format|
       if @cookbook.save
         format.html { redirect_to @cookbook, notice: 'Cookbook was successfully created.' }
