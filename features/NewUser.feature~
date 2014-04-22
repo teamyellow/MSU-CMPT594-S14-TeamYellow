@@ -7,4 +7,4 @@ Scenario: Login
     |username|minikermit|
     |pwd|12345678|
   And I press "Login"
-  Then I should see "welcome to the cookbook"
+  Then I should see "welcome to cookbook"
