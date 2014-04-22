@@ -10,12 +10,9 @@ Physicalfocus::Application.routes.draw do
 resources :users
 root :to => 'users#index'
 match "users/authenticate" => "users#authenticate" 
-<<<<<<< HEAD
 match "logout", :to => "users#logout", via: :get
 
-=======
 get "users/index/edit"
->>>>>>> 03e8b137d504b67a416ad285e307a53d66dd7518
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
