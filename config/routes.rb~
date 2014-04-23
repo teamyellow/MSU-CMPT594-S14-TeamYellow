@@ -11,6 +11,10 @@ resources :users
 root :to => 'users#index'
 match "users/authenticate" => "users#authenticate" 
 
+match "logout", :to => "users#logout", via: :get
+
+get "users/index/edit"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
