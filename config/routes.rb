@@ -7,9 +7,22 @@ Physicalfocus::Application.routes.draw do
   get "cookbook/index"
 
 #root :to => 'home#index'
-resources :users
+resources :users do
+collection do
+    get 'forgotpassword'
+  end
+end
+
 root :to => 'users#index'
 match "users/authenticate" => "users#authenticate" 
+get "logout" => "sessions#destroy", :as => "logout"
+  get "login" => "sessions#new", :as => "login"
+  get "signup" => "users#new", :as => "signup"
+  root :to => "home#index"
+  resources :users
+  resources :sessions
+  resources :password_resets
+
 match "logout", :to => "users#logout", via: :get
 
 get "users/index/edit"
