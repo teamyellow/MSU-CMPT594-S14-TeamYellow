@@ -38,6 +38,7 @@ def edit
 
     
   def logout
+    session[:user_id] = nil 
     redirect_to '/'
     flash[:notice] = 'You logged out, please log in to continue'
   end

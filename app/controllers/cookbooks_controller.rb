@@ -24,14 +24,17 @@ class CookbooksController < ApplicationController
   # GET /cookbooks/new
   # GET /cookbooks/new.json
   def new
-    @cookbook = Cookbook.new
+   # @cookbook = Cookbook.new
+if session[:User_id]
+@user=User.find(session[:User_id])
+@cookbook=@user.cookbooks.build
 
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @cookbook }
     end
   end
-
+end
   # GET /cookbooks/1/edit
   def edit
     @cookbook = Cookbook.find(params[:id])
@@ -40,7 +43,9 @@ class CookbooksController < ApplicationController
   # POST /cookbooks
   # POST /cookbooks.json
   def create
-    @cookbook = Cookbook.new(params[:cookbook])
+   # @cookbook = Cookbook.new(params[:cookbook])
+@user=User.find(session[:User_id])
+@cookbook=@user.cookbooks.build(params[:cookbook])
     @cookbook.author = User.find(session[:User_id]).username
     respond_to do |format|
       if @cookbook.save

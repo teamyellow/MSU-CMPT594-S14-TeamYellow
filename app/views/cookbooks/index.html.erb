@@ -32,8 +32,12 @@
     <td><%= cookbook.directions %></td>
     <td><%= cookbook.created_at %></td>
     <td><%= link_to 'Show', cookbook %></td>
+     <% if (cookbook.user_id)== session[:User_id] %>
     <td><%= link_to 'Edit', edit_cookbook_path(cookbook) %></td>
+    <% end %>
+     <% if (cookbook.user_id)== session[:User_id] %>
     <td><%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
     <td><%= link_to 'Comments', cookbook %></td>
   </tr>
   <p>

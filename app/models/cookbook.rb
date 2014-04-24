@@ -1,3 +1,4 @@
 class Cookbook < ActiveRecord::Base
-  attr_accessible :title, :author, :servings, :preptime, :cooktime, :ingredients, :directions
+belongs_to:user
+attr_accessible :title, :author, :servings, :preptime, :cooktime, :ingredients, :directions, :user_id
 end

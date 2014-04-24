@@ -15,6 +15,7 @@
     <th>Cook Time</th>
     <th>Ingredients</th>
     <th>Directions</th>
+    <th>Created Date</th>
   </tr>
 
   <tr>
@@ -29,9 +30,14 @@
 	</ul>
     </td>
     <td><%= cookbook.directions %></td>
+    <td><%= cookbook.created_at %></td>
     <td><%= link_to 'Show', cookbook %></td>
+     <% if (cookbook.user_id)== session[:User_id] %>
     <td><%= link_to 'Edit', edit_cookbook_path(cookbook) %></td>
+    <% end %>
+     <% if (cookbook.user_id)== session[:User_id] %>
     <td><%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
     <td><%= link_to 'Comments', cookbook %></td>
   </tr>
   <p>
@@ -48,3 +54,7 @@
 <div align="center">
 <%=link_to 'Edit Profile', edit_user_path(session[:User_id]) %>
 </div>
+<div class="logout">
+<%=link_to 'Logout', :controller => :users, :action => :logout %>
+</div>
+
