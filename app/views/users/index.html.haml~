@@ -1,41 +1,43 @@
-- # This file is app/views/users/index.html.haml
-  %div
-    %h1 Sign in
-    = form_tag '/users/authenticate' do
-      %div{:align => "center"}
-        Username *:
-        \#{text_field_tag :username, params[:username]}
-        %br/
-        %br/
-        Password *:
-        %input{:name => "pwd", :type => "password"} /
-        %br/
-        %br/
-        = submit_tag 'Login'
-        %br/
-        %br/
-        = link_to ' New User?   SignUp' , new_user_path
-        %br/
-        Forgot Password?
-      %div
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
-        %br/
+-# This file is app/views/users/index.html.haml
+%h1 Sign in
+
+%div
+  = form_tag '/users/authenticate' do
+    %div{:align => "center"}
+      Username *:
+      = text_field_tag :username, params[:username]
+      %br/
+      %br/
+      Password *:
+      = password_field_tag :password, params[:username]
+      %br/
+      %br/
+      = submit_tag 'Login'
+      %br/
+      %br/
+     
+      = link_to ' New User?   SignUp' , new_user_path
+      %br/
+      Forgot Password?
+    %div
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/
+      %br/     

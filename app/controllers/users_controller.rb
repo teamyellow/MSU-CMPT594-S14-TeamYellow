@@ -44,12 +44,12 @@ def edit
 
 def authenticate
  @user_present = User.find_by_username(params[:username])
-  if  @user_present 
+  if  @user_present && @user_present.password==params[:password]
     session[:User_id] =  @user_present.id
     flash[:notice] = "#{@user_present.first_name}, welcome to the cookbook!!"
     redirect_to cookbooks_path
   else
-  flash[:warning] = "Error in Log in : Please enter correct email and password"
+  flash[:warning] = "Error in Log in : Please enter correct username and password"
   redirect_to users_path
   end
 end

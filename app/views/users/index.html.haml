@@ -9,7 +9,7 @@
       %br/
       %br/
       Password *:
-      %input{:name => "pwd", :type => "password"}/
+      = password_field_tag :password, params[:username]
       %br/
       %br/
       = submit_tag 'Login'
