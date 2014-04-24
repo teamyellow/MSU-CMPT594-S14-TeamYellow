@@ -86,6 +86,10 @@ end
     end
   end
   
+  def index
+   @cookbooks = Cookbook.search(params[:search])
+  end
+  
   def comment
   	@comment = "comment"
   end
