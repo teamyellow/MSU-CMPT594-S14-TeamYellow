@@ -1,19 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <%= stylesheet_link_tag "application"%>
+  <%= yield :stylesheets %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+</head>
 <h1 align="center">Listing cookbooks</h1>
-<% content_for :stylesheets do %>
+<!--<% content_for :stylesheets do %>
   <%= stylesheet_link_tag 'cookbooks' %>
 <% end %> 
+-->
 
 
+
+<div class="search_box">
 <%= form_tag cookbooks_path, :method => 'get' do %>
-  <p>
-    <%= text_field_tag :search, params[:search] %>
-    <%= submit_tag "Search", :name => nil %>
-  </p>
-<% end %>
   
+   <div class="wrapper">
+   		<div id="search">
+   			<%= text_field_tag :search, params[:search] %>
+   		</div>
+   			<button type="submit" class="search_button" >Search</button>
+   	</div>
+   
+  
+<% end %>
+</div>
+
+
+
 <% @cookbooks.each do |cookbook| %>
 
-<table align="center" border="2">
+<table align="center" border="2" class="table">
 <tr>
     <th>Author</th>
     <th>Recipe</th>
@@ -55,13 +76,13 @@
 </table>
 
 <br />
-<div align="center">
+<div align="center" class="new">
 <%= link_to 'New Cookbook', new_cookbook_path %>
 </div>
-<div align="center">
+<div align="center" class="edit">
 <%=link_to 'Edit Profile', edit_user_path(session[:User_id]) %>
 </div>
-<div class="logout">
+<div align="center" class="logout">
 <%=link_to 'Logout', :controller => :users, :action => :logout %>
 </div>
-
+</html>

@@ -1,4 +1,4 @@
-
+class SessionsController < ApplicationController
 
 def create
   user = User.find_by_email(params[:email])
@@ -21,3 +21,4 @@ def destroy
 end
 
 
+end
