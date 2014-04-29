@@ -20,21 +20,18 @@
 <%= form_tag cookbooks_path, :method => 'get' do %>
   
    <div class="wrapper">
-   		<div id="search">
+   		<input type="text" id="search" placeholder="Search by ingredients...">
    			<%= text_field_tag :search, params[:search] %>
-   		</div>
-   			<button type="submit" class="search_button" >Search</button>
+   		</input>
+   			<button type="submit" class="search_button" >Search!</button>
    	</div>
    
   
 <% end %>
 </div>
 
-
-
-<% @cookbooks.each do |cookbook| %>
-
 <table align="center" border="2" class="table">
+
 <tr>
     <th>Author</th>
     <th>Recipe</th>
@@ -45,6 +42,9 @@
     <th>Directions</th>
     <th>Created Date</th>
   </tr>
+
+<% @cookbooks.each do |cookbook| %>
+
 
   <tr>
     <td><%= cookbook.author %></td>
@@ -59,14 +59,16 @@
     </td>
     <td><%= cookbook.directions %></td>
     <td><%= cookbook.created_at %></td>
-    <td><%= link_to 'Show', cookbook %></td>
+    <td>
+    <%= link_to 'Show', cookbook %>
      <% if (cookbook.user_id)== session[:User_id] %>
-    <td><%= link_to 'Edit', edit_cookbook_path(cookbook) %></td>
+    <%= link_to 'Edit', edit_cookbook_path(cookbook) %>
     <% end %>
      <% if (cookbook.user_id)== session[:User_id] %>
-    <td><%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %>
     <% end %>
-    <td><%= link_to 'Comments', cookbook %></td>
+    <%= link_to 'Comments', cookbook %>
+    </td>
   </tr>
   <p>
   

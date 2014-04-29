@@ -71,9 +71,9 @@ label {
   position: relative;
   left:65%;
   bottom:0%;
-  -moz-box-shadow: 3px 5px 0px 0px #8a2a21;
-  -webkit-box-shadow: 3px 5px 0px 0px #8a2a21;
-  box-shadow: 3px 5px 0px 0px #8a2a21;
+  -moz-box-shadow: 3px 2px 0px 0px #8a2a21;
+  -webkit-box-shadow: 3px 2px 0px 0px #8a2a21;
+  box-shadow: 3px 2px 0px 0px #8a2a21;
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
   background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
   background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
@@ -114,8 +114,8 @@ label {
 .table {
   margin:0px;padding:0px;
   width:100%;
-  box-shadow: 10px 10px 5px #888888;
-  border:1px solid #ff0000;
+  box-shadow: 10px 10px 2px #888888;
+  border:2px solid #ff0000;
   
   -moz-border-radius-bottomleft:12px;
   -webkit-border-bottom-left-radius:12px;
@@ -139,6 +139,7 @@ label {
   width:100%;
   height:100%;
   margin:0px;padding:0px;
+
 }
 .table tr:last-child td:last-child {
   -moz-border-radius-bottomright:12px;
@@ -164,12 +165,12 @@ label {
   
 }
 .table tr:nth-child(odd){ background-color:#ff7f00; }
-.table tr:nth-child(even)    { background-color:#00bf00; }.table td{
+.table tr:nth-child(even)    { background-color:#8258fa; }.table td{
   vertical-align:middle;
   
   
-  border:1px solid #ff0000;
-  border-width:0px 1px 1px 0px;
+  border:2px solid #ff0000;
+  border-width:2px;
   text-align:center;
   padding:7px;
   font-size:14px;
@@ -178,13 +179,13 @@ label {
   color:#000000;
 }
 .table tr:last-child td{
-  border-width:0px 1px 0px 0px;
+  border-width:2px;
 }
 .table tr td:last-child{
-  border-width:0px 0px 1px 0px;
+  border-width:2px;
 }
 .table tr:last-child td:last-child{
-  border-width:0px 0px 0px 0px;
+  border-width:2px;
 }
 
 .table tr:first-child td{
@@ -193,9 +194,9 @@ label {
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000bf", endColorstr="#0000bf");  background: -o-linear-gradient(top,#0000bf,0000bf);
 
   background-color:#0000bf;
-  border:0px solid #ff0000;
+  border:2px solid #ff0000;
   text-align:center;
-  border-width:0px 0px 1px 1px;
+  border-width:2px;
   font-size:17px;
   font-family:Georgia;
   font-weight:bold;
@@ -211,11 +212,11 @@ label {
 }
 
 .table tr:first-child td:first-child{
-  border-width:0px 0px 1px 0px;
+  border-width:2px;
 }
 
 .table tr:first-child td:last-child{
-  border-width:0px 0px 1px 1px;
+  border-width:2px;
 }
 
 .new {
@@ -278,7 +279,7 @@ label {
   font-family:arial;
   font-size:18px;
   font-weight:bold;
-  padding:9px 25px;
+  padding:9px 22px;
   text-decoration:none;
   text-shadow:0px 1px 0px #ffee66;
 }
@@ -301,11 +302,11 @@ label {
   background:-moz-linear-gradient(top, #ffd73a, #ffa500);
   background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffd73a), to(#ffa500));
   border:1px solid #d28703;
-  border-radius:5px;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
-  -moz-box-shadow:inset 0 1px #ffff90, inset 0 -2px 5px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65);
-  -webkit-box-shadow:inset 0 1px #ffff90, inset 0 -2px 5px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65);
+  border-radius:2px;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  -moz-box-shadow:inset 0 1px #ffff90, inset 0 -2px 2px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65);
+  -webkit-box-shadow:inset 0 1px #ffff90, inset 0 -2px 2px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65);
   padding:9px;
   width:570px;
 }
@@ -343,7 +344,7 @@ label {
   cursor:pointer;
   color:#ffffff;
   font-family:arial;
-  font-size:15px;
+  font-size:12px;
   padding:6px 17px;
   text-decoration:none;
   text-shadow:0px 1px 0px #854629;
