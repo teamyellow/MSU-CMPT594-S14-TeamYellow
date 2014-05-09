@@ -2,7 +2,7 @@
   <p>
     <strong>
 	Posted <%= time_ago_in_words(comment.created_at) %> ago
-	by: <%= User.find(comment.author).username %>
+	by <%= User.find(comment.author).username %>
     </strong>
     <br/>
     <%= comment.body %>

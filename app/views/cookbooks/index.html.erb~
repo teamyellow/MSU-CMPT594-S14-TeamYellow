@@ -41,6 +41,8 @@
     <th>Ingredients</th>
     <th>Directions</th>
     <th>Created Date</th>
+    <th>Display</td>
+    <th>Comments</td>
   </tr>
 
 <% @cookbooks.each do |cookbook| %>
@@ -68,7 +70,7 @@
     <%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %>
     <% end %>
     </td>
-    <td><%= render :partial => @cookbook.comments %></td>
+    <td><%= render :partial => cookbook.comments %></td>
   </tr>
   <p>
   
