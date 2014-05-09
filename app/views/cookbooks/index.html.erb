@@ -68,6 +68,7 @@
     <%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %>
     <% end %>
     </td>
+    <td><%= render :partial => cookbook.comments %></td>
   </tr>
   <p>
   
