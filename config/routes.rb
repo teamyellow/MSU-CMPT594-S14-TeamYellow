@@ -1,6 +1,9 @@
 Physicalfocus::Application.routes.draw do
-  resources :cookbooks
 
+
+  resources :cookbooks do
+    resources :comments, :only => [:create]
+  end
 
   get "home/index"
   get "cookbooks_controller.rb/comment"
