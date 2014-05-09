@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
 has_many:cookbooks
-#has_many:comments , foreign_key: :author_id
  attr_accessible :first_name, :last_name, :username, :email,:password
  EMAIL_REGEX = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
 validates :first_name, :presence => true

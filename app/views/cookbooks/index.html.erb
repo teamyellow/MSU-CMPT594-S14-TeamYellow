@@ -67,7 +67,6 @@
      <% if (cookbook.user_id)== session[:User_id] %>
     <%= link_to 'Destroy', cookbook, method: :delete, data: { confirm: 'Are you sure?' } %>
     <% end %>
-    <%= link_to 'Comments', cookbook %>
     </td>
   </tr>
   <p>

@@ -45,9 +45,12 @@
 <%= form_for [@cookbook, Comment.new] do |f| %>
   <p>
     <%= f.label :body, "New comment" %><br/>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, size: "30x5"%>
   </p>
   <p>
-    <%= f.submit "Add comment" %>
+   <% if User.exists?(session[:User_id]) %>
+      <%= f.submit "Add comment" %>
+   <% else %> You are not logged on. Please sign up or log in to leave a comment. 
+   <% end %>
   </p>
 <% end %>
