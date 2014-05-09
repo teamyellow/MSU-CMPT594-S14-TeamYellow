@@ -36,8 +36,8 @@
 </p>
 
 
-<%= link_to 'Edit', edit_cookbook_path(@cookbook) %> |
-<%= link_to 'Back', cookbooks_path %>
+<h1><%= link_to 'Edit', edit_cookbook_path(@cookbook) %> |
+<%= link_to 'Back', cookbooks_path %></h1>
 <h2>Comments</h2>
 <div id="comments">
    <%= render :partial => @cookbook.comments %>
@@ -48,7 +48,7 @@
     <%= f.text_area :body, size: "30x5"%>
   </p>
   <p>
-   <% if User.find(session[:User_id]).exists? %>
+   <% if User.exists?(session[:User_id]) %>
       <%= f.submit "Add comment" %>
    <% else %> You are not logged on. Please sign up or log in to leave a comment. 
    <% end %>
