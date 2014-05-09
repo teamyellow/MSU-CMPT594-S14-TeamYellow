@@ -19,20 +19,20 @@
     <%= f.number_field :servings %>
   </div>
   <div class="field">
-    <%= f.label :preptime %><br />
-    <%= f.number_field :preptime %>
+    <%= f.label :preptime %><br /> 
+    <%= f.number_field :preptime %> (in minutes)
   </div>
   <div class="field">
-    <%= f.label :cooktime %><br />
-    <%= f.number_field :cooktime %>
+    <%= f.label :cooktime %><br /> 
+    <%= f.number_field :cooktime %> (in minutes)
   </div>
   <div class="field">
     <%= f.label :ingredients %> (List ingredients separated by a comma)<br />
-    <%= f.text_field :ingredients %>
+    <%= f.text_area :ingredients, size: "40x2" %>
   </div>
   <div class="field">
     <%= f.label :directions %><br />
-    <%= f.text_field :directions %>
+    <%= f.text_area :directions, size: "40x5" %>
   </div>
 
   <div class="actions">
