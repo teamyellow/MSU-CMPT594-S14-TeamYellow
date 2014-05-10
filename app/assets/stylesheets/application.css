@@ -13,12 +13,12 @@
  */
 html, body {
 
-background-image:url('http://reformstudiossc.com/wp-content/uploads/2012/09/healthy-living.jpg');
+background-image:url('http://www.mrwallpaper.com/wallpapers/daisies-green-background-1280x720.jpg');
   margin: 0;
   padding: 0;
   color: black;
   font-family: Tahoma, Verdana, sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
   background-repeat:no-repeat;
   background-size:cover;
   }
@@ -26,18 +26,19 @@ background-image:url('http://reformstudiossc.com/wp-content/uploads/2012/09/heal
 h1.title {
   margin: 0 0 1em;
   padding: 10px;
-  background-color: grey;
+  background-color: #006600;
   color: white;
   border-bottom: 4px solid #31B404;
   font-size: 2em;
   font-style: normal;
 }
 #footer{
-    position: relative;
+    background-color: #006600;
+    position: absolute;
     top:100%;
-    color: DarkSlateGrey;
+    color: white;
     font-family: Tahoma, Verdana, sans-serif;
-    font-size: 10pt;
+    font-size: 15pt;
     font-style: bold;
     position:absolute;
     bottom:0;
@@ -45,7 +46,7 @@ h1.title {
     height:60px;
 }
 #notice {
-  background: rosybrown;
+  background: #006600;
   margin: 1em 0;
   padding: 4px;
   font-size: 150%;
@@ -364,5 +365,63 @@ label {
   position:relative;
   top:1px;
 }
+.newtable{
+  font-size: 15pt;
+  color:black;
+  opacity: 0.7;
+  font-style: bold;
+}
+
+.actions {
+  -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+  -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+  background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+  background-color:#ffec64;
+  -moz-border-radius:14px;
+  -webkit-border-radius:14px;
+  border-radius:14px;
+  border:1px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  font-style:italic;
+  padding:10px 22px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffee66;
+}
+.actions:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+  background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+  background-color:#ffab23;
+}
+.actions:active {
+  position:relative;
+  top:1px;
+}
+#username{
+  font-size:15pt;
+}
 
 
+.loginpage{
+  font-size:15pt;
+}
+
+#password{
+  font-size:15pt;
+}

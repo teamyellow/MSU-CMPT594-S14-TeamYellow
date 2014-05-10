@@ -1,25 +1,24 @@
 -# This file is app/views/users/index.html.haml
-%h1 Sign in
-
+%h1 Login Page
 %div
   = form_tag '/users/authenticate' do
     %div{:align => "center"}
-      Username *:
+      Username:
       = text_field_tag :username, params[:username]
       %br/
       %br/
-      Password *:
+      Password:
       = password_field_tag :password, params[:username]
       %br/
       %br/
       = check_box_tag :remember_me, 1, params[:remember_me] 
-      = label_tag :remember_me 
+      = label_tag :remember 
       = submit_tag 'Login'
       %br/
       %br/
      
-      = link_to ' New User?   SignUp' , new_user_path
-      = link_to ' forgotten password?' 	, new_password_reset_path
+      = link_to ' SignUp' , new_user_path
+      = link_to ' Forgot Password?' 	, new_password_reset_path
      
       
     %div

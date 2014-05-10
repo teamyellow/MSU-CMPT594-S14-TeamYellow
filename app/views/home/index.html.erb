@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+ 
+  <%= stylesheet_link_tag "application"%>
+  <%= yield :stylesheets %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+</head>
 <body>
 <div>
 <%= yield %>
@@ -8,11 +16,11 @@ THIS IS HOME PAGE
 
 <div>
    <form tag="Create Logon">
-   <div align="center">
-	Username *:  <input type="username" name="username" />
+   <div align="center" class="loginpage">
+		Username:  <input type="username" name="username" />
 	<br/>
         <br/>
-        Password *:    <input type="password" name="pwd" />
+        Password:    <input type="password" name="pwd" id="password" />
  	<br/>
 	<br/>
 		<input type="submit" value="Submit" />

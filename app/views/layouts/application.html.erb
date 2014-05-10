@@ -19,9 +19,7 @@
 </div>
 	
  <% if flash[:notice] %>
-    <div class="message" id="notice">
-      <%= flash[:notice] %>
-    </div>
+    
   <% elsif flash[:warning] %>
     <div class="message" id="warning">
       <%= flash[:warning] %>
@@ -29,13 +27,12 @@
   <% end %>
 <div>
 <%= yield %>
+
 </div>
 
 
 
 </body>
 
-<div align="center" id="footer">
-     Created by Montclair State University students (Anagha Tasgaonkar, Krupa Patel, Olivia Larson, Vinothini Ramachandran, Enis Bilgin)
-</div>
+
 </html>
