@@ -66,4 +66,13 @@ Physicalfocus::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
  # email host
  config.action_mailer.default_url_options = { :host => "heet-physicalfocus.herokuapp.com" }
+config.action_mailer.smtp_settings = {
+  address: "smtp.gmail.com",
+  port: 587,
+  domain: "example.com",
+  authentication: "plain",
+  enable_starttls_auto: true,
+  user_name: 'teamyellow.594@gmail.com',
+  password: 'teamyellow'
+}
 end

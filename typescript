@@ -1,0 +1,546 @@
+Script started on Sat 10 May 2014 10:13:15 PM ADT
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ gem tlsm ail
+ERROR:  While executing gem ... (RuntimeError)
+    Unknown command tlsmail
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ gem tlsmaail"[A]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ [C[C[C[C"tlsmail"[A]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ [C[C[C[C[C
+
+ERROR:  While executing gem ... (RuntimeError)
+    Unknown command tlsmail
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ rails s
+=> Booting WEBrick
+=> Rails 3.2.16 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+/home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require': cannot load such file -- tlsmail (LoadError)
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config/environment.rb:7:in `<top (required)>'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `block in <main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `new'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `<main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `parse_file'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:200:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:46:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:254:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:70:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `tap'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ sudo gen [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm  install tlsmail
+[sudo] password for saasbook: 
+Fetching: tlsmail-0.0.1.gemFetching: tlsmail-0.0.1.gem ( 18%)Fetching: tlsmail-0.0.1.gem ( 38%)Fetching: tlsmail-0.0.1.gem ( 78%)Fetching: tlsmail-0.0.1.gem (100%)Fetching: tlsmail-0.0.1.gem (100%)
+WARNING: tlsmail-0.0.1 has an invalid nil value for @cert_chain
+Successfully installed tlsmail-0.0.1
+1 gem installed
+Installing ri documentation for tlsmail-0.0.1...
+Installing RDoc documentation for tlsmail-0.0.1...
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ sudo gem  install tlsmail[A]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ [1Prails s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+=> Booting WEBrick
+=> Rails 3.2.16 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+/home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require': cannot load such file -- tlsmail (LoadError)
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config/environment.rb:7:in `<top (required)>'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `block in <main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `new'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `<main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `parse_file'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:200:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:46:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:254:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:70:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `tap'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ bundle i nstall
+Using rake (10.3.1)
+Using i18n (0.6.9)
+Using multi_json (1.9.2)
+Using activesupport (3.2.16)
+Using builder (3.0.4)
+Using activemodel (3.2.16)
+Using erubis (2.7.0)
+Using journey (1.0.4)
+Using rack (1.4.5)
+Using rack-cache (1.2)
+Using rack-test (0.6.2)
+Using hike (1.2.3)
+Using tilt (1.4.1)
+Using sprockets (2.2.2)
+Using actionpack (3.2.16)
+Using mime-types (1.25.1)
+Using polyglot (0.3.4)
+Using treetop (1.4.15)
+Using mail (2.5.4)
+Using actionmailer (3.2.16)
+Using arel (3.0.3)
+Using tzinfo (0.3.39)
+Using activerecord (3.2.16)
+Using activeresource (3.2.16)
+Using addressable (2.3.6)
+Using archive-tar-minitar (0.5.2)
+Using mini_portile (0.5.3)
+Using nokogiri (1.6.1)
+Using xpath (2.0.0)
+Using capybara (2.2.1)
+Using coffee-script-source (1.7.0)
+Using execjs (2.0.2)
+Using coffee-script (2.2.0)
+Using rack-ssl (1.3.4)
+Using json (1.8.1)
+Using rdoc (3.12.2)
+Using thor (0.19.1)
+Using railties (3.2.16)
+Using coffee-rails (3.2.2)
+Using columnize (0.8.9)
+Using diff-lcs (1.2.5)
+Using gherkin (2.12.2)
+Using multi_test (0.1.1)
+Using cucumber (1.3.14)
+Using bundler (1.5.3)
+Using rails (3.2.16)
+Using cucumber-rails (1.4.0)
+Using cucumber-rails-training-wheels (1.0.0)
+Using database_cleaner (1.2.0)
+Using haml (4.0.5)
+Using jquery-rails (3.1.0)
+Using launchy (2.4.2)
+Using ruby_core_source (0.1.5)
+Using linecache19 (0.5.12)
+Using pg (0.17.1)
+Using rspec-core (2.14.7)
+Using rspec-expectations (2.14.4)
+Using rspec-mocks (2.14.4)
+Using rspec-rails (2.14.0)
+Using ruby-debug-base19 (0.11.25)
+Using ruby-debug19 (0.11.6)
+Using sass (3.3.5)
+Using sass-rails (3.2.6)
+Using sqlite3 (1.3.9)
+Using uglifier (2.5.0)
+[32mYour bundle is complete![0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ bundle innstall[A]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ [1Prails s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+=> Booting WEBrick
+=> Rails 3.2.16 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+/home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require': cannot load such file -- tlsmail (LoadError)
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config/environment.rb:7:in `<top (required)>'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `block in <main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `new'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `<main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `parse_file'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:200:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:46:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:254:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:70:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `tap'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ rails sbundle innstall[A]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ [1Prails s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gem  install tlsmail
+WARNING: tlsmail-0.0.1 has an invalid nil value for @cert_chain
+Successfully installed tlsmail-0.0.1
+1 gem installed
+Installing ri documentation for tlsmail-0.0.1...
+Installing RDoc documentation for tlsmail-0.0.1...
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ sudo gem  install tlsmail[A]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ [1Prails s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+=> Booting WEBrick
+=> Rails 3.2.16 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+/home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require': cannot load such file -- tlsmail (LoadError)
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config/environment.rb:7:in `<top (required)>'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `require'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:3:in `block in <main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `new'
+	from /home/saasbook/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow/config.ru:in `<main>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `eval'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:40:in `parse_file'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:200:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:46:in `app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:304:in `wrapped_app'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/server.rb:254:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands/server.rb:70:in `start'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `tap'
+	from /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;saasbook@saasbook: ~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellowsaasbook@saasbook:~/Documents/physicalfocus/MSU-CMPT594-S14-TeamYellow$ rails s
+=> Booting WEBrick
+=> Rails 3.2.16 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2014-05-10 22:30:45] INFO  WEBrick 1.3.1
+[2014-05-10 22:30:45] INFO  ruby 1.9.3 (2013-06-27) [i686-linux]
+[2014-05-10 22:30:45] INFO  WEBrick::HTTPServer#start: pid=4236 port=3000
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:31:26 -0300
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  Rendered users/index.html.haml within layouts/application (56.7ms)
+Completed 200 OK in 179.3ms (Views: 178.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:31:27 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+[2014-05-10 22:31:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:27 -0300
+Served asset /comments.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/cookbooks.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:27 -0300
+Served asset /cookbooks.js - 304 Not Modified (9ms)
+[2014-05-10 22:31:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/cookbook.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:27 -0300
+Served asset /cookbook.js - 304 Not Modified (9ms)
+[2014-05-10 22:31:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:27 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (18ms)
+[2014-05-10 22:31:27] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:27 -0300
+Served asset /jquery.js - 304 Not Modified (23ms)
+[2014-05-10 22:31:28] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:28 -0300
+Served asset /home.js - 304 Not Modified (17ms)
+[2014-05-10 22:31:28] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:28 -0300
+Served asset /application.js - 304 Not Modified (141ms)
+[2014-05-10 22:31:28] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started POST "/users/authenticate" for 127.0.0.1 at 2014-05-10 22:31:40 -0300
+Processing by UsersController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m56DzIJnnikQaRwHjNUN6LZw8DcYpyREkl8g2eCCgTk=", "username"=>"email2vinothini@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'email2vinothini@gmail.com' LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/users
+Completed 302 Found in 144.6ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-05-10 22:31:40 -0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 17.1ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/cookbook.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /cookbook.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /comments.js - 304 Not Modified (0ms)
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /jquery.js - 304 Not Modified (6ms)
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /home.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/cookbooks.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /cookbooks.js - 304 Not Modified (0ms)
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:41 -0300
+Served asset /application.js - 304 Not Modified (8ms)
+[2014-05-10 22:31:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-05-10 22:31:44 -0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.haml within layouts/application (37.5ms)
+Completed 200 OK in 67.0ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+[2014-05-10 22:31:44] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:31:44 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+[2014-05-10 22:31:44] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:44 -0300
+Served asset /jquery.js - 304 Not Modified (42ms)
+[2014-05-10 22:31:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:45 -0300
+Served asset /home.js - 304 Not Modified (0ms)
+[2014-05-10 22:31:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/cookbooks.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:45 -0300
+Served asset /cookbooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cookbook.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:45 -0300
+Served asset /cookbook.js - 304 Not Modified (0ms)
+[2014-05-10 22:31:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:45 -0300
+Served asset /comments.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+[2014-05-10 22:31:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:45 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+[2014-05-10 22:31:45] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started POST "/users" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m56DzIJnnikQaRwHjNUN6LZw8DcYpyREkl8g2eCCgTk=", "user"=>{"first_name"=>"Vinothini", "last_name"=>"ramachandran", "username"=>"vino3", "email"=>"email2vinothini@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'vino3' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'email2vinothini@gmail.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."auth_token" = 'wYCYu7ZDEu7A-F0rvVsHIQ' LIMIT 1[0m
+  [1m[35mSQL (52.8ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "first_name", "last_name", "password", "password_reset_sent_at", "password_reset_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["auth_token", "wYCYu7ZDEu7A-F0rvVsHIQ"], ["created_at", Sun, 11 May 2014 01:31:59 UTC +00:00], ["email", "email2vinothini@gmail.com"], ["first_name", "Vinothini"], ["last_name", "ramachandran"], ["password", "Tamilnadu"], ["password_reset_sent_at", nil], ["password_reset_token", nil], ["updated_at", Sun, 11 May 2014 01:31:59 UTC +00:00], ["username", "vino3"]]
+  [1m[36m (24.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/users
+Completed 302 Found in 269.3ms (ActiveRecord: 77.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 24.0ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/cookbooks.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /cookbooks.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/cookbook.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /cookbook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /jquery.js - 304 Not Modified (8ms)
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /home.js - 304 Not Modified (9ms)
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:31:59 -0300
+Served asset /application.js - 304 Not Modified (8ms)
+[2014-05-10 22:31:59] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/password_resets/new" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 13.7ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/cookbooks.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /cookbooks.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/cookbook.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /cookbook.js - 304 Not Modified (0ms)
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /jquery.js - 304 Not Modified (8ms)
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /home.js - 304 Not Modified (5ms)
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:01 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+[2014-05-10 22:32:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started POST "/password_resets" for 127.0.0.1 at 2014-05-10 22:32:05 -0300
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m56DzIJnnikQaRwHjNUN6LZw8DcYpyREkl8g2eCCgTk=", "email"=>"email2vinothini@gmail.com", "commit"=>"Reset Password"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'email2vinothini@gmail.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."password_reset_token" = 'AyHi0Td9Z11sVHi87D7OhQ' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE ("users"."username" = 'vino3' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE ("users"."email" = 'email2vinothini@gmail.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "users" SET "password_reset_token" = 'AyHi0Td9Z11sVHi87D7OhQ', "password_reset_sent_at" = '2014-05-11 01:32:05.797021', "updated_at" = '2014-05-11 01:32:05.808785' WHERE "users"."id" = 1[0m
+  [1m[35m (51.6ms)[0m  commit transaction
+  Rendered user_mailer/password_reset.html.erb (0.9ms)
+
+Sent mail to email2vinothini@gmail.com (2639.3ms)
+Date: Sat, 10 May 2014 22:32:07 -0300
+From: from@example.com
+To: email2vinothini@gmail.com
+Message-ID: <536ed31744b82_108c24d597129539c@saasbook.mail>
+Subject: Password Reset
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+To reset your password, click the URL below.
+
+http://localhost:3000/password_resets/AyHi0Td9Z11sVHi87D7OhQ/edit
+
+If you did not request your password to be reset, just ignore this email and your password will continue to stay the same.
+
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 4107.9ms (ActiveRecord: 53.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:32:09 -0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 20.8ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:32:10 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+[2014-05-10 22:32:10] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/cookbooks.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:10 -0300
+Served asset /cookbooks.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cookbook.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:10 -0300
+Served asset /cookbook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:10 -0300
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+[2014-05-10 22:32:10] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:32:10] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:32:10] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:10 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+[2014-05-10 22:32:10] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2014-05-10 22:32:10] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:10 -0300
+Served asset /home.js - 304 Not Mod
