@@ -29,7 +29,7 @@ def edit
     @user = User.find(params[:id])
     respond_to do |format|
       if @user.update_attributes(params[:user])
-        format.html { redirect_to(users_path, :notice => 'User was successfully updated.') }
+        format.html { redirect_to(users_path, flash[:notice] => 'User was successfully updated.') }
       else
         format.html { render :action => "edit" }
       end
@@ -38,6 +38,7 @@ def edit
 
     
   def logout
+    session[:user_id] = nil 
     redirect_to '/'
     flash[:notice] = 'You logged out, please log in to continue'
   end
